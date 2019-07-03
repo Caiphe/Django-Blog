@@ -1,0 +1,27 @@
+{% extends "Blog/base.html" %}
+{% block content %}
+
+<div class="container" style="margin-top:20px;">
+
+  <div class="media">
+    <div class="profile-image-container">
+      <div class="centered">
+        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}" />
+      </div>
+    </div>
+    <p style="margin-left:20px;"> <b>{{ user.username }}</b> <br>{{ user.email }} </p>
+  </div>
+
+  <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ u_form }}
+    {{ p_form }}
+    <div class="submit_button_container">
+      <button class="submit_btm" type="submit"> Update </button>
+      <br />
+    </div>
+  </form>
+
+</div>
+
+{% endblock content %}

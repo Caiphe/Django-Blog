@@ -1,0 +1,84 @@
+.alert-success {
+  padding: 7px 10px;
+  background: #54a154e6;
+  width: 220px;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+ul {
+  display: none;
+}
+.helptext {
+  display: none;
+}
+.register-section {
+  position: relative;
+}
+input {
+  margin-top: 30px !important;
+  position: relative;
+  left: 0;
+  margin-left: 10px;
+  height: 25px !important;
+  padding-left: 5px;
+}
+.submit_button_container {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.submit_btm {
+  padding: 8px 22px;
+  background: #156da7;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  cursor: pointer !important;
+}
+.errorlist {
+  color: red;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+.errorlist li {
+  list-style: none;
+}
+.content-section {
+  position: relative;
+}
+.profile-image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.author-img {
+  width: 70px;
+  height: 70px;
+}
+.navbar-container {
+  background: #cdcdcd;
+  margin-top: -10px;
+  padding: 15px;
+}
+.navbar-container a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.register-section {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+}
+.register-section label {
+  text-align: left;
+}
+.register-section input {
+  width: 90%;
+  margin-top: 5px;
+}
